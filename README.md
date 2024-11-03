@@ -1,33 +1,25 @@
-# GIVEN a candidate search application
 
+# The Employee Candidate Tracker App
+## Description
+This is  web app for picking random employee candidates from GitHub, allowing the user to either save or reject them. If the user saves the candidate, it gets added to local storage. The user can then go to their Potential Candidates page and view their saved candidates. <br><br>
+![MIT No Attribution License badge](https://img.shields.io/badge/license-MIT_No_Attribution-blue.svg)
+## Table of Contents 
+- [Installation](#installation) 
+- [Usage](#usage)
+- [Credits](#credits) 
+- [License](#license)
+- [Testing](#testing) 
+- [Questions](#questions)
+## Installation
+This application will be rendered and fully functional online. 
+## Usage
+It is still currently in production. 
+## Credits
+I will be getting help in office hours (thanks, JD!) 
+## License 
+  This project is licensed under the MIT No Attribution License license. <br>For more information, please visit: [Link to more info about MIT No Attribution License](https://opensource.org/license/mit-0)
+## Testing
 
-WHEN the candidate search page loads
-THEN the information for one candidate should be displayed, including the candidate's name, username, location, avatar, email, html_url, and company
-
-
-WHEN I click the "+" button
-THEN the candidate should be saved to the list of potential candidates and the next candidate's information should be displayed
-
-
-WHEN I click the "-" button
-THEN the next candidate's information should be displayed without saving the current candidate
-
-
-WHEN there are no candidates available to review
-THEN an appropriate message should be shown indicating no more candidates are available
-
-
-WHEN the potential candidates page loads
-THEN the user should see a list of previously saved potential candidates with their name, username, location, avatar, email, html_url, and company
-
-
-WHEN the page reloads
-THEN the list of potential candidates should persist and be available for viewing
-
-
-WHEN there are no potential candidates
-THEN an appropriate message should be displayed indicating no candidates have been accepted
-
-
-WHEN I click the "-" button
-THEN the next candidate's information should be displayed without saving the current candidate
+## Questions
+If you have any questions regarding this application, you may send them to:  <br>
+Link to developer GitHub profile: [github.delucianina](https://github.com/delucianina)
