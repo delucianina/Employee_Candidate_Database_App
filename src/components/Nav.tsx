@@ -1,5 +1,4 @@
-import { NavLink } from 'react-router-dom';
-// import CandidateSearch from '../pages/CandidateSearch';
+import { NavLink} from 'react-router-dom';
 
 const Nav = () => {
   // TODO: Add necessary code to display the navigation bar and link between the pages
@@ -8,6 +7,8 @@ const Nav = () => {
       <NavLink to="/">Home</NavLink>
       <NavLink to="/CandidateSearch">Potential Candidates</NavLink>
     </nav>
+
+      
   )
 };
 

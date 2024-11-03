@@ -12,6 +12,7 @@ import Nav from './components/Nav';
 
 // APP FUNCTION: 
 function App() {
+  
   return (
     <>
       <Nav />
