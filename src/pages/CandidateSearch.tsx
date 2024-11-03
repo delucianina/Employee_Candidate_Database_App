@@ -40,13 +40,41 @@ const CandidateSearch = () => {
     <div>
       <h1>CandidateSearch</h1>
       {/* Include CandidateCard here when it's finished */}
-      <p>Random User: </p>
       {/* Will display randUser here 
           
           Are we supposed to cycle through the 30 github profiles one by one and allow the user to save or reject them?
           If they save a candidate, add it to local memory and then show any profiles saved to local memory on the Potential Candidates page?
           
           I'm operating under the assumption this is the assignment, but it wasn't totally clear to me or any of my classmates I asked */}
+
+        {/* // This should include: 
+          // Profile avatar 
+          // Login - name title 
+          // Location
+          // Email 
+          // Company
+          // Bio   */}
+        
+        {/* Style card to have round edges */}
+        <div className="card">
+          {/* Don't know how to import the image */}
+          <h3>Login</h3>
+          <p>Location: {/* inject location from API info */}</p>
+          <p>Email: {/* inject email from API info */}</p>
+          <p>Company: {/* inject company from API info */}</p>
+          <p>Bio: {/* inject bio from API info */}</p>
+          <button>Test to see CSS</button>
+        </div>
+
+        <div className="button-container">
+          <button className="reject">
+            -
+          </button>
+          <button className="save">
+            +
+          </button>
+        </div>
+
     </div>
   );
 

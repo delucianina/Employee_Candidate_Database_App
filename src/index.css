@@ -94,6 +94,47 @@ tr {
   color: white;
 }
 
+
+/* ------ MY CUSTOM CLASSES ------- */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #000;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+button.reject {
+  background-color: red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  color: white;
+  font-size: 3rem;
+}
+
+button.save {
+  background-color: green;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  color: white;
+  font-size: 3rem;
+}
+
+
+
+
+
 tbody tr:nth-child(odd) {
   background-color: #333333;
 }
